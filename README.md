@@ -1,16 +1,16 @@
 # **🤖 Discord AI Bot**
 
-A **Discord bot** powered by **Azure AI** that answers user questions in a dedicated Discord channel. The bot ensures cost optimization by implementing a **10-minute slow mode** and requires users to **prefix messages with **`` to trigger responses.
+A **Discord bot** powered by **Azure AI** that answers user questions in a dedicated Discord channel. The bot ensures cost optimization by implementing a **10-minute slow mode** and requires users to **prefix messages with "ai"`` to trigger responses.
 
 ---
 
 ## **🚀 Features**
 
 - ✅ Uses **Azure AI** for intelligent responses
-- ✅ **Slow Mode:** 10 minutes ⏳ (to optimize usage for free-tier Azure students)
+- ✅ **Slow Mode:** 10 minutes ⏳ (to optimize usage for free-tier Azure students) (You need to manually set the channel into slowmode if needed)
 - ✅ Supports **long messages**, breaking them into structured responses
 - ✅ Saves ultra-long messages as a downloadable file
-- ✅ **Web Server** to keep the bot alive on **Azure App Services**
+- ✅ **Web Server** to keep the bot alive on **Azure App Services** 
 
 ### **⚠️ Current Limitations & Future Enhancements**
 
@@ -21,7 +21,7 @@ A **Discord bot** powered by **Azure AI** that answers user questions in a dedic
 
 ## **📌 How to Use the Bot?**
 
-1️⃣ **Start your message with **``
+1️⃣ **Start your message with "ai"``
 
 - Example: `ai What is artificial intelligence?` 2️⃣ **Wait for the bot to respond** 🤖\
   3️⃣ **Receive a structured and detailed response!**
